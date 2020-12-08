@@ -7,7 +7,7 @@ defmodule BlogWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_blog_key",
-    signing_salt: "258MMKJC"
+    signing_salt: "fM8faCnG"
   ]
 
   socket "/socket", BlogWeb.UserSocket,
