@@ -26,3 +26,5 @@ IO.puts date.year
 
 IO.puts date.month
 
+reverse = String.reverse("Hello")
+IO.puts reverse
