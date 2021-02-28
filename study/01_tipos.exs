@@ -16,3 +16,13 @@ IO.puts multiply
 divide = 5 / 2
 IO.puts divide
 
+negative = 5 - 10
+IO.puts negative
+
+IO.puts div(5, 5)
+
+date = ~D[2000-01-01]
+IO.puts date.year
+
+IO.puts date.month
+
