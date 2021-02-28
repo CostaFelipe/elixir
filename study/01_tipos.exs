@@ -10,3 +10,9 @@ IO.puts string
 float = 1.6 + 1
 IO.puts float
 
+multiply = 5 * 6
+IO.puts multiply
+
+divide = 5 / 2
+IO.puts divide
+
