@@ -8,4 +8,8 @@ defmodule HelloWeb.HelloController do
   def show(conn, %{"messenger" => messenger}) do
     render(conn, "show.html", messenger: messenger)
   end
+
+  def adicionar(conn, %{"a" => a, "b" => b}) do
+    render(conn, "somar.html", a: a, b: b)
+  end
 end
