@@ -19,7 +19,7 @@ defmodule HelloWeb.Router do
     get "/", PageController, :index
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
-    get "/add/:a/:b", HelloController, :adicionar
+    get "/add/:nome/:sobrenome", HelloController, :ficha
   end
 
   # Other scopes may use custom stacks.
