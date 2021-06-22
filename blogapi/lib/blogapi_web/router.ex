@@ -7,5 +7,8 @@ defmodule BlogapiWeb.Router do
 
   scope "/api", BlogapiWeb do
     pipe_through :api
+
+    post "/posts", PostController, :create
+
   end
 end
