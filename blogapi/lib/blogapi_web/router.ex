@@ -9,6 +9,6 @@ defmodule BlogapiWeb.Router do
     pipe_through :api
 
     post "/posts", PostController, :create
-
+    
   end
 end
