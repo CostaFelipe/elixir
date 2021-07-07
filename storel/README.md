@@ -1,6 +1,13 @@
 # Storel
 Projet:
- * Store app backend utily api Absinthe & GraphQL
+ * Store app backend api phoenix using Absinthe & GraphQL
+
+deps used in project:
+ * argon2_elixir 
+ * absinthe 
+ * absinthe_plug
+ * absinthe_relay
+ * absinthe_ecto
 
 To start your Phoenix server:
   * Install dependencies with `mix deps.get`
