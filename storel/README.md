@@ -8,6 +8,8 @@ deps used in project:
  * absinthe_plug
  * absinthe_relay
  * absinthe_ecto
+ * absinthe_error_payload
+ * absinthe_phoenix
 
 To start your Phoenix server:
   * Install dependencies with `mix deps.get`
